@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which of the following is not a JavaScript data type?",
+        "answers":{
+            "a": "Number",
+            "b": "Boolean",
+            "c": "Character",
+            "d": "Undefined"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "Which keyword is used to declare a constant in JavaScript?",
+        "answers":{
+            "a": "var",
+            "b": "let",
+            "c": "const",
+            "d": "static"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What is the output of console.log(typeof NaN)?",
+        "answers":{
+            "a": "\"NaN\"",
+            "b": "\"undefined\"",
+            "c": "\"number\"",
+            "d": "\"object\""
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What will console.log(2 + \"2\") output?",
+        "answers":{
+            "a": "4",
+            "b": "\"4\"",
+            "c": "\"22\"",
+            "d": "NaN"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "Which of the following methods adds a new element to the end of an array?",
+        "answers":{
+            "a": "push()",
+            "b": "pop()",
+            "c": "shift()",
+            "d": "unshift()"
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "What does == do in JavaScript?",
+        "answers":{
+            "a": "Compares both value and type",
+            "b": "Compares only type",
+            "c": "Compares only value (type is converted if needed)",
+            "d": "Assigns a value"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What is the result of Boolean(\"\")?",
+        "answers":{
+            "a": "true",
+            "b": "false",
+            "c": "null",
+            "d": "undefined"
+        },
+        "correctAnswer": "b"
+    },
+    
+    {
+        "question": "How do you write an arrow function that returns the square of x?",
+        "answers":{
+            "a": "let square = x => x * x;",
+            "b": "let square = (x) => { return x * x; }",
+            "c": "Both A and B",
+            "d": "None of the above"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What will console.log(0 == false) print?",
+        "answers":{
+            "a": "true",
+            "b": "false",
+            "c": "undefined",
+            "d": "Error"
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "Which method can be used to convert a string to an integer?",
+        "answers":{
+            "a": "parseInt()",
+            "b": "parseFloat()",
+            "c": "toFixed()",
+            "d": "NumberString()"
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "What will be the output of typeof null?",
+        "answers":{
+            "a": "\"object\"",
+            "b": "\"null\"",
+            "c": "\"undefined\"",
+            "d": "\"string\""
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "Which of the following correctly creates a JavaScript object?",
+        "answers":{
+            "a": "let obj = (name: \"John\", age: 30);",
+            "b": "let obj = {name: \"John\", age: 30};",
+            "c": "let obj = [name: \"John\", age: 30];",
+            "d": "let obj = <name: \"John\", age: 30>;"
+        },
+        "correctAnswer": "b"
+    },
+    
+    {
+        "question": "Which of these array methods creates a new array without modifying the original one?",
+        "answers":{
+            "a": "splice()",
+            "b": "push()",
+            "c": "slice()",
+            "d": "pop()"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "What is the correct syntax for an if statement in JavaScript?",
+        "answers":{
+            "a": "if (x > y) {}",
+            "b": "if x > y {}",
+            "c": "if x > y then {}",
+            "d": "if (x > y):"
+        },
+        "correctAnswer": "a"
+    },
+
+    {
+        "question": "What will console.log(\"5\" - 3) output?",
+        "answers":{
+            "a": "\"2\"",
+            "b": "2",
+            "c": "NaN",
+            "d": "\"53\""
+        },
+        "correctAnswer": "b"
+    },
+
+    {
+        "question": "What does the *this* keyword refer to in JavaScript (in a regular function)?",
+        "answers":{
+            "a": "The global object",
+            "b": "The function itself",
+            "c": "The object that owns the function",
+            "d": "None of the above"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "Which of the following will stop a loop in JavaScript?",
+        "answers":{
+            "a": "stop",
+            "b": "exit",
+            "c": "break",
+            "d": "return"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "Which built-in method calls a function for each element in an array?",
+        "answers":{
+            "a": "map()",
+            "b": "loop()",
+            "c": "forEach()",
+            "d": "every()"
+        },
+        "correctAnswer": "c"
+    },
+
+    {
+        "question": "Which of these is not a JavaScript framework/library?",
+        "answers":{
+            "a": "React",
+            "b": "Angular",
+            "c": "Vue",
+            "d": "Django"
+        },
+        "correctAnswer": "d"
+    },
+
+
+    {
+        "question": "How do you write a comment in JavaScript?",
+        "answers":{
+            "a": "<!-- This is a comment -->",
+            "b": "// This is a comment //",
+            "c": "** This is a comment **",
+            "d": "/* This is a comment */"
+        },
+        "correctAnswer": "d"
+    }
+]
